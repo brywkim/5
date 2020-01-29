@@ -1,82 +1,51 @@
-.about{height:100vh;display:flex;position:absolute}.about-title{width:300px;height:300px;display:flex;margin-top:15em;margin-left:5em;margin-right:5em;display:flex}.about-info{display:flex;margin-top:25em}.about-info{position:absolute;margin-left:5em;margin-top:28em}.about-projects{width:1000px;overflow:scroll;scroll-behavior:smooth}.about-projects div{height:600px;display:flex;flex-direction:column;justify-content:space-around;padding-left:1rem}.about-projects div>p{font-size: .8em;color:#a5a9b2}.about-projects div:nth-child(1){background-color:#7887AB}.about-projects div:nth-child(2){background-color:#4F628E}.about-projects div:nth-child(3){background-color:#2E4172}h1{font-size:2.5rem;color:#4A4A4A}h2{font-size:1rem;color:#4A4A4A}h3{font-size:1rem;color:#fafafa}
-
-.about{
-	height: 100vh;
-	display: flex;
-	position: absolute;
+body {
+	background-color: fafafa
 
 }
 
-.about-title{
-	width: 300px;
-	height: 300px;
-	display: flex;
-	margin-top: 15em;
-	margin-left: 5em;
-	margin-right: 5em;
-	display: flex;
-
-
+.box-area{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
 }
 
-.about-info{
-  display: flex;
-  margin-top: 25em;
-}
-
-.about-info{
-	position: absolute;
-	margin-left: 5em;
-	margin-top: 28em;
-
-}
-
-
-.about-projects{
-	width: 1000px;
-	overflow: scroll;
-	scroll-behavior: smooth;
-}
-
-.about-projects div{
-	height: 600px;
-	display: flex;
+.left{
+	position: relative;
+	display:flex;
 	flex-direction: column;
-	justify-content: space-around;
-	padding-left: 1rem;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+	transtion: .3s;
+	border-width: 3px;
+	border-color: #26466d;
 }
 
-.about-projects div> p{
-	font-size: .8em;
-	color: #a5a9b2;
+.left{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	width: 400px;
+	height: 100px;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position:left;
 }
 
-
-
-.about-projects div:nth-child(1){
-	background-color: #7887AB
+.right{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	align-items: left;
+	width: 800px;
+	height: 400px;
+	background-color: #26466d;
+	margin: 20px;
+	padding: 20px;
+	transtion: .3s;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position:left;
 }
-.about-projects div:nth-child(2){
-	background-color: #4F628E
-}
-.about-projects div:nth-child(3){
-	background-color: #2E4172	
-}
-
-
-
-h1 {
-	font-size: 2.5rem;
-	color: #4A4A4A;
-}
-
-h2 {
-	font-size: 1rem;
-	color: #4A4A4A;
-}
-
-h3 {
-	font-size: 1rem;
-	color: #fafafa;
-}
-
