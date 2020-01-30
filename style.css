@@ -15,24 +15,19 @@ html{
 }
 
 .about-title{
-	width: 50%;
+	width: 70%;
 	height: 500px;
 	display: flex;
-	margin-top: 12em;
-	margin-left: 3em;
-	margin-right: 12em;
+	margin-top: 10em;
+	margin-left: 5em;
+	margin-right: 10em;
 
 }
 
 .about-info{
-  display: flex;
-  margin-top: 20em;
-  margin-left: 5em;
-}
-
-.about-info{
+	display: flex;
 	position: absolute;
-	margin-left: 4em;
+	margin-left: 5.1em;
 	margin-top: 25em;
 
 }
@@ -54,12 +49,12 @@ html{
 
 .about-projects div> p{
 	font-size: .8em;
-	color: #fafafa;
+	color: #4A4A4A;
 	display: flex;
 	flex-direction: column;
 	padding-left: 3rem;
 	text-align: left;
-	width: 50%;
+	width: 70%;
 }
 
 .about-projects div> img{
@@ -73,16 +68,16 @@ html{
 
 
 .about-projects div:nth-child(1){
-	background-color: #7887AB;
+	background-color: #B9D6FE;
 }
 .about-projects div:nth-child(2){
-	background-color: #4F628E
+	background-color: #FEEDB9
 }
 .about-projects div:nth-child(3){
-	background-color: #2E4172	
+	background-color: #FEB9B9	
 }
 .about-projects div:nth-child(4){
-	background-color: #7887AB	
+	background-color: #B7E8A5	
 }
 
 		/*blue colors*/
